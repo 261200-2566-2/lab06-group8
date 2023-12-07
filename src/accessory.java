@@ -28,7 +28,7 @@ public class accessory implements accInterface{
 
     /**Get wearing type of accessory
      * example accessory for head,right hand
-     * @return the type of accessory is worn on
+     * @return the type of accessory is worn on ,as a String
      */
     @Override
     public String getWearingType(){
@@ -37,7 +37,7 @@ public class accessory implements accInterface{
 
     /**Get Job type of character
      * there are assasin,wizard,swordman
-     * @return the job type of character ,or "noJobType" if it's not job-specific, as a String
+     * @return the job type of character ,or "noJobType" if it's not job-specific,as a String
      */
     @Override
     public String getJobtype() {
