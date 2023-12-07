@@ -28,7 +28,7 @@ public class accessory implements accInterface{
 
     /**Get wearing type of accessory
      * example accessory for head,right hand
-     * @return the type of accessory is worn on as a String
+     * @return the type of accessory is worn on
      */
     @Override
     public String getWearingType(){
